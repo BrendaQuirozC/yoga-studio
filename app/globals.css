@@ -22,6 +22,12 @@
 .hero-carousel {
   margin-top: -64px;
 }
+/* ── Classes ──────────────────────────── */
+@media (max-width: 767px) {
+  .classes-icon{
+    width: 100px;
+  }
+}
 /* ── Book ──────────────────────────── */
 .booking-container{
   overflow-x: auto;
@@ -33,6 +39,15 @@
 @media (max-width: 1405px) {
   .booking-container{
     width: 100%;
+  }
+}
+/* ── Footer ──────────────────────────── */
+@media (max-width: 767px) {
+  .grid-footer{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
   }
 }
 /* ── Slick Carousel custom dots ──────────────────────────── */

@@ -1,14 +1,22 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { Heart, Zap, Leaf, Users, Wind, Music } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import LogoSmall from "../../public/images/logo-small.png";
+import Lotus from "../../public/images/lotus.png";
+import Hatha from "../../public/images/hatha.png";
+import Yin from "../../public/images/yin.png";
+import Power from "../../public/images/power.png";
+import Meditation from "../../public/images/meditation.png";
+import Sound from "../../public/images/sound.png";
+import Beginner from "../../public/images/beginner.png";
+import YogaCat from "../../public/images/yoga-cat.png"
 
 interface ClassType {
   name: string;
-  icon: React.ElementType;
+  icon: StaticImageData;
   description: string;
   purpose: string;
   benefits: string[];
@@ -21,7 +29,7 @@ export default function ClassesPage() {
   const classes: ClassType[] = [
     {
       name: t.classes.hathaYogaTitle,
-      icon: Leaf,
+      icon: Hatha,
       description: t.classes.hathaYogaDesc,
       purpose: t.classes.hathaYogaPurpose,
       benefits: t.classes.hathaYogaBenefits,
@@ -30,7 +38,7 @@ export default function ClassesPage() {
     },
     {
       name: t.classes.yinYogaTitle,
-      icon: Heart,
+      icon: Yin,
       description: t.classes.yinYogaDesc,
       purpose: t.classes.yinYogaPurpose,
       benefits: t.classes.yinYogaBenefits,
@@ -39,7 +47,7 @@ export default function ClassesPage() {
     },
     {
       name: t.classes.beginnersYogaTitle,
-      icon: Users,
+      icon: Beginner,
       description: t.classes.beginnersYogaDesc,
       purpose: t.classes.beginnersYogaPurpose,
       benefits: t.classes.beginnersYogaBenefits,
@@ -48,7 +56,7 @@ export default function ClassesPage() {
     },
     {
       name: t.classes.powerYogaTitle,
-      icon: Zap,
+      icon: Power,
       description: t.classes.powerYogaDesc,
       purpose: t.classes.powerYogaPurpose,
       benefits: t.classes.powerYogaBenefits,
@@ -57,7 +65,7 @@ export default function ClassesPage() {
     },
     {
       name: t.classes.meditationTitle,
-      icon: Wind,
+      icon: Meditation,
       description: t.classes.meditationDesc,
       purpose: t.classes.meditationPurpose,
       benefits: t.classes.meditationBenefits,
@@ -66,7 +74,7 @@ export default function ClassesPage() {
     },
     {
       name: t.classes.soundhealingTitle,
-      icon: Music,
+      icon: Sound,
       description: t.classes.soundhealingDesc,
       purpose: t.classes.soundhealingPurpose,
       benefits: t.classes.soundhealingBenefits,
@@ -92,7 +100,6 @@ export default function ClassesPage() {
         {/* Classes Grid */}
         <div className="grid gap-8">
           {classes.map((classType, index) => {
-            const Icon = classType.icon;
             return (
               <div
                 key={index}
@@ -100,7 +107,13 @@ export default function ClassesPage() {
               >
                 <div className="md:flex">
                   <div className="md:w-1/4 bg-gradient-to-br from-teal-600 to-cyan-600 flex items-center justify-center p-12">
-                    <Icon size={80} className="text-white" strokeWidth={1.5} />
+                    <Image
+                      width={300} 
+                      height={300} 
+                      alt="yoga" 
+                      src={classType.icon} 
+                      className="classes-icon"
+                    />
                   </div>
                   <div className="md:w-3/4 p-8">
                     <div className="flex items-start justify-between mb-4">
@@ -137,8 +150,12 @@ export default function ClassesPage() {
 
         {/* CTA */}
         <div className="mt-16 text-center bg-gradient-to-br from-teal-600 to-cyan-600 rounded-xl p-12 text-white relative overflow-hidden">
-          <div className="absolute top-4 right-4 text-5xl opacity-20">🪷</div>
-          <div className="absolute bottom-4 left-4 text-5xl opacity-20">🌿</div>
+          <div className="absolute top-4 right-4 text-5xl opacity-20">
+            <Image className="opacity-90" src={YogaCat} alt="YogaCat" width={200}/>
+          </div>
+          <div className="absolute bottom-4 left-4 text-5xl opacity-20">
+            <Image className="opacity-20" src={Lotus} alt="lotus" width={100}/>
+          </div>
           <h2 className="text-3xl font-serif mb-4 relative z-10">{t.classes.ctaTitle}</h2>
           <p className="text-xl mb-6 text-cyan-50 relative z-10">{t.classes.ctaSubtitle}</p>
           <Link href="/book" className="inline-block bg-white text-teal-700 px-8 py-4 rounded-full text-lg hover:bg-teal-50 transition-colors relative z-10 shadow-lg">

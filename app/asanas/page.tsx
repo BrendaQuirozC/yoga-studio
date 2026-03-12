@@ -6,6 +6,9 @@ import { motion } from "motion/react";
 import { useLanguage } from "../contexts/LanguageContext";
 import LogoSmall from "../../public/images/logo-small.png";
 
+import { HugeiconsIcon } from '@hugeicons/react'
+import { AlarmClockIcon, FastWindIcon, Yoga01Icon } from '@hugeicons/core-free-icons';
+
 interface Asana {
   name: string;
   sanskritName: string;
@@ -186,13 +189,20 @@ export default function AsanasPage() {
         </div>
 
         {/* Practice Tips */}
-        <div className="mt-16 bg-white/80 backdrop-blur-sm rounded-xl p-8 border-2 border-teal-200">
+        <div className="mt-16 bg-white/80 backdrop-blur-sm rounded-xl p-8 shadow-sm shadow-emerald-200">
           <h3 className="text-2xl font-serif text-teal-700 mb-4 text-center">
             {t.asanas.practiceTips.title}
           </h3>
           <div className="grid md:grid-cols-3 gap-6 text-gray-700">
             <div className="text-center">
-              <div className="text-4xl mb-2">🧘</div>
+              <div className="text-4xl mb-2 justify-items-center">
+                <HugeiconsIcon
+                  icon={Yoga01Icon}
+                  size={30}
+                  color="currentColor"
+                  strokeWidth={1.5}
+                />
+              </div>
               <h4 className="font-semibold mb-2">
                 {t.asanas.practiceTips.tip1.head}
               </h4>
@@ -201,7 +211,14 @@ export default function AsanasPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-2">🌬️</div>
+              <div className="text-4xl mb-2 justify-items-center">
+                <HugeiconsIcon 
+                  icon={FastWindIcon}
+                  size={30}
+                  color="currentColor"
+                  strokeWidth={1.5}
+                />
+              </div>
               <h4 className="font-semibold mb-2">
                 {t.asanas.practiceTips.tip2.head}
               </h4>
@@ -210,7 +227,14 @@ export default function AsanasPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl mb-2">⏰</div>
+              <div className="text-4xl mb-2 justify-items-center">
+                <HugeiconsIcon 
+                  icon={AlarmClockIcon}
+                  size={30}
+                  color="currentColor"
+                  strokeWidth={1.5}
+                />
+              </div>
               <h4 className="font-semibold mb-2">
                 {t.asanas.practiceTips.tip3.head}
               </h4>

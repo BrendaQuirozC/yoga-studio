@@ -3,7 +3,8 @@
 import Slider from "react-slick";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../public/images/logo.png";
+import Yin from "../public/images/yin.png";
+
 import { useLanguage } from "./contexts/LanguageContext";
 
 const studioImages = [
@@ -93,7 +94,7 @@ export default function HomePage() {
       {/* CTA */}
       <section className="py-20 bg-gradient-to-br from-teal-600 to-cyan-600 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <Image src={Logo} alt="leaves" width={900} className="absolute top-1 left-1/2 -translate-x-1/2  text-9xl"/>
+          <Image src={Yin} alt="leaves" width={400} className="absolute top-1 left-1/2 -translate-x-1/2  text-9xl"/>
         </div>
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
           <h2 className="text-4xl font-serif mb-6">{t.home.ctaTitle}</h2>

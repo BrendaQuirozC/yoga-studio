@@ -4,6 +4,11 @@ import Image from "next/image";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import LogoSmall from "../../public/images/logo-small.png";
+import Lotus from "../../public/images/lotus.png";
+import MoonCat from "../../public/images/moon-cat.png";
+
+import { HugeiconsIcon } from '@hugeicons/react'
+import { ParkingAreaCircleIcon, Plant01Icon, Yoga01Icon } from '@hugeicons/core-free-icons';
 
 export default function ContactPage() {
   const { t } = useLanguage();
@@ -33,7 +38,7 @@ export default function ContactPage() {
                 title: t.contact.locationTitle,
                 content: (
                   <p className="text-gray-700">
-                    Calle Principal s/n<br />Centro, Yobain<br />Yucatán 97751, México
+                    Calle Principal #123<br />Centro, Yobain<br />Yucatán 97751, México
                   </p>
                 ),
               },
@@ -139,17 +144,57 @@ export default function ContactPage() {
 
         {/* Visit Section */}
         <div className="mt-16 bg-gradient-to-br from-teal-600 to-cyan-600 text-white rounded-xl p-12 relative overflow-hidden">
-          <div className="absolute top-4 right-4 text-6xl opacity-20">🪷</div>
-          <div className="absolute bottom-4 left-4 text-6xl opacity-20">🌿</div>
+          <div className="absolute top-4 right-4 text-6xl opacity-20">
+            <Image className="opacity-90" src={MoonCat} alt="leaves" width={200}/>
+          </div>
+          <div className="absolute bottom-4 left-4 text-6xl opacity-20">
+            <Image className="opacity-20" src={Lotus} alt="leaves" width={100}/>
+          </div>
           <div className="text-center max-w-3xl mx-auto relative z-10">
-            <h2 className="text-3xl font-serif mb-4">Visit Our Studio</h2>
+            <h2 className="text-3xl font-serif mb-4">
+              {t.visit.title}
+            </h2>
             <p className="text-lg text-cyan-50 mb-8">
-              Experience the peaceful atmosphere of our studio in the tranquil town of Yobain, Yucatán. Free parking available. First class is always free for new students!
+              {t.visit.desc}
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
-              <div><div className="text-3xl mb-2">🅿️</div><p className="text-cyan-50">Free Parking</p></div>
-              <div><div className="text-3xl mb-2">🧘‍♀️</div><p className="text-cyan-50">All Equipment Provided</p></div>
-              <div><div className="text-3xl mb-2">🌿</div><p className="text-cyan-50">Eco-Friendly Studio</p></div>
+              <div className="justify-items-center">
+                <div className="text-3xl mb-2">
+                  <HugeiconsIcon 
+                    icon={ParkingAreaCircleIcon}
+                    strokeWidth={1.5}
+                    size={30}
+                  />
+                </div>
+                <p className="text-cyan-50">
+                  {t.visit.char1}
+                </p>
+              </div>
+              <div className="justify-items-center">
+                <div className="text-3xl mb-2">
+                <HugeiconsIcon
+                  icon={Yoga01Icon}
+                  size={30}
+                  color="currentColor"
+                  strokeWidth={1.5}
+                />
+                </div>
+                <p className="text-cyan-50">
+                  {t.visit.char2}
+                </p>
+              </div>
+              <div className="justify-items-center">
+                <div className="text-3xl mb-2">
+                  <HugeiconsIcon 
+                    icon={Plant01Icon}
+                    strokeWidth={1.5}
+                    size={30}
+                  />
+                </div>
+                <p className="text-cyan-50">
+                  {t.visit.char3}
+                </p>
+              </div>
             </div>
           </div>
         </div>

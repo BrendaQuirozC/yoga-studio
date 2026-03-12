@@ -1,6 +1,11 @@
+
+# Pina Yoga Studio
+
+## Yoga studio website prototype named Pina in honor of my cat Pina 🐈‍⬛ 🖤
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Installation
 
 First, run the development server:
 
@@ -16,21 +21,42 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Smooth Animations**: Implemented with Framer Motion for a premium experience
+- **Fully Responsive**: Adaptive design for all devices
+- **Bilingual**: Page has translation in English and Spanish
 
-## Learn More
+## Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js
+- **Language**: TypeScript
+- **Styles**: Tailwind CSS
+- **Animations**: Framer Motion
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+yoga-studio/
+├── app/
+│   ├── globals.css          # Global styles and animations
+│   ├── layout.tsx           # Main layout
+│   ├── page.tsx             # Main page
+│   ├── asanas/              # Asanas library section
+│   ├── book/                # Calendar to book a class section
+│   ├── classes/             # Catalog of classes offered section
+│   ├── contact/             # Contact studio information section
+│   ├── contexts/            # Language contexts
+|   └── locales/             # Library of dictionaries
+├── components/
+│   ├── Navbar.tsx           # Navigation with sections
+│   └── Footer.tsx           # Footer
+├── public/                  # Static assets
+│   └── Images/               
+├── tailwind.config.ts       # Tailwind configuration
+├── tsconfig.json            # TypeScript configuration
+└── package.json             # Dependencies
+```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Designed and developed by Brenda Quiroz Catalán 🐰

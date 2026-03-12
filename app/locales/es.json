@@ -213,6 +213,13 @@
     "howCan": "¿Cómo podemos ayudarte?",
     "sendMessage": "Enviar mensaje"
   },
+  "visit": {
+    "title": "Visita Nuestro Estudio",
+    "desc": "Experimenta la atmósfera tranquila de nuestro estudio en el apacible pueblo de Yobain, Yucatán. Estacionamiento gratuito disponible. ¡La primera clase siempre es gratis para nuevos estudiantes!",
+    "char1": "Estacionamiento Gratuito",
+    "char2": "Todo el Equipo Incluido",
+    "char3": "Estudio Eco-Friendly"
+  },
   "footer": {
     "tagline": "Encuentra tu equilibrio, nutre tu alma",
     "address": "Calle Principal #123, Yobain, Yucatán",

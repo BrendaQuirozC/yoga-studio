@@ -213,6 +213,13 @@
     "howCan": "How can we help you?",
     "sendMessage": "Send Message"
   },
+  "visit": {
+    "title": "Visit Our Studio",
+    "desc": "Experience the peaceful atmosphere of our studio in the tranquil town of Yobain, Yucatán. Free parking available. First class is always free for new students!",
+    "char1": "Free Parking",
+    "char2": "All Equipment Provided",
+    "char3": "Eco-Friendly Studio"
+  },
   "footer": {
     "tagline": "Find your balance, nurture your soul",
     "address": "Calle Principal #123, Yobain, Yucatán",

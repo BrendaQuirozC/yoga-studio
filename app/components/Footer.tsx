@@ -11,8 +11,8 @@ export function Footer() {
   return (
     <footer className="bg-teal-50 py-12 mt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
-          <div className="max-w-[266]">
+        <div className="grid-footer grid md:grid-cols-3 gap-8 text-center md:text-left">
+          <div className="max-w-[270]">
             <div className="flex items-center gap-2 mb-4 justify-center md:justify-start">
               <Image src={Logo} alt="leaves" width={150}/>
             </div>
