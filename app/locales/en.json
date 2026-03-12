@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "home": "Home",
+    "classes": "Classes",
+    "asanas": "Asanas",
+    "contact": "Contact",
+    "bookClass": "Book a Class"
+  },
+  "home": {
+    "quote": "Yoga is the journey of the self, through the self, to the self.",
+    "quoteAuthor": "The Bhagavad Gita",
+    "instructorsTitle": "Meet Our Instructors",
+    "instructorsSubtitle": "Our experienced and passionate instructors are here to guide you on your yoga journey, whether you're a beginner or an advanced practitioner.",
+    "instructor1": {
+      "name": "Gisela Novelo",
+      "specialty": "Hatha & Yin Yoga",
+      "bio": "With over 10 years of experience, Gis brings peace and mindfulness to every class."
+    },
+    "instructor2": {
+      "name": "Brenda Quiroz",
+      "specialty": "Power Yoga & Meditation",
+      "bio": "Bren specializes in building strength and mental clarity through dynamic practice."
+    },
+    "instructor3": {
+      "name": "Andy Aguilera",
+      "specialty": "Beginners & Sound Healing",
+      "bio": "Andy creates a welcoming space for beginners and offers transformative sound healing sessions."
+    },
+    "ctaTitle": "Begin Your Journey Today",
+    "ctaSubtitle": "Join our community and discover the transformative power of yoga.",
+    "ctaButton": "Book Your First Class"
+  },
+  "book": {
+    "title": "Book a Class",
+    "subtitle": "Choose from our variety of classes throughout the week",
+    "classTypesTitle": "Class Types",
+    "powerYoga": "Power Yoga",
+    "hathaYoga": "Hatha Yoga",
+    "yinYoga": "Yin Yoga",
+    "beginnersYoga": "Beginners",
+    "meditation": "Meditation",
+    "soundhealing": "Soundhealing",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "duration": "min",
+    "spots": "spots",
+    "bookButton": "Book",
+    "bookingInfoTitle": "Booking Information",
+    "cancellationTitle": "Cancellation Policy",
+    "cancellationText": "Cancel up to 3 hours before class for a full refund. No-shows will be charged.",
+    "whatToBringTitle": "What to Bring",
+    "whatToBringText": "We provide mats and props. Bring water and wear comfortable clothing.",
+    "firstTimeTitle": "First-Time Students",
+    "firstTimeText": "Arrive 10 minutes early to complete registration. Beginners welcome in all classes!",
+    "pricingTitle": "Pricing",
+    "pricingText": "Drop-in: $15 • 10-class pack: $120 • Monthly unlimited: $150",
+    "modalTitle": "Class booked!",
+    "modalMessage": "See you there, namaste!",
+    "modalClose": "Close"
+  },
+  "purpose": "Purpose",
+  "benefits": "Benefits",
+  "showLess": "Show Less",
+  "learMore": "Learn More",
+  "classes": {
+    "title": "Studio Classes",
+    "subtitle": "Discover the perfect class for your journey. From gentle restorative practices to dynamic power flows, we offer something for everyone.",
+    "hathaYogaTitle": "Hatha Yoga",
+    "hathaYogaDesc": "Traditional yoga practice focusing on physical postures and breathing techniques. Perfect for developing a strong foundation in yoga.",
+    "hathaYogaPurpose": "To create harmony between the body, mind, and spirit through sustained poses and conscious breathing.",
+    "hathaYogaBenefits": ["Improves flexibility and strength", "Reduces stress and anxiety", "Enhances balance and posture", "Promotes better sleep quality", "Increases body awareness"],
+    "hathaYogaLevel": "All Levels",
+    "hathaYogaDuration": "75 minutes",
+    "yinYogaTitle": "Yin Yoga",
+    "yinYogaDesc": "Yin yoga is a slow-paced style where poses are held for longer periods. It targets deep connective tissues and fascia, promoting relaxation and flexibility at a profound level.",
+    "yinYogaPurpose": "To access deeper layers of connective tissue, increase circulation in joints, and calm the nervous system.",
+    "yinYogaBenefits": ["Deeply stretches connective tissues", "Improves joint mobility", "Releases deep-seated tension", "Promotes mindfulness and meditation", "Balances the body's energy systems"],
+    "yinYogaLevel": "All Levels",
+    "yinYogaDuration": "90 minutes",
+    "beginnersYogaTitle": "Beginners Yoga",
+    "beginnersYogaDesc": "Perfect for those new to yoga, this class introduces fundamental poses, breathing techniques, and basic yoga philosophy in a supportive, non-intimidating environment.",
+    "beginnersYogaPurpose": "To build a strong foundation in yoga practice with proper alignment and breathing techniques.",
+    "beginnersYogaBenefits": ["Learn proper form and alignment", "Build confidence in practice", "Develop body awareness", "Reduce stress naturally", "Create healthy habits"],
+    "beginnersYogaLevel": "Beginners",
+    "beginnersYogaDuration": "60 minutes",
+    "powerYogaTitle": "Power Yoga",
+    "powerYogaDesc": "An energetic, fitness-based approach to vinyasa-style yoga. Power yoga builds strength, flexibility, and stamina through a challenging sequence of poses.",
+    "powerYogaPurpose": "To build physical strength, increase cardiovascular fitness, and develop mental focus through dynamic movement.",
+    "powerYogaBenefits": ["Builds lean muscle mass", "Increases cardiovascular endurance", "Burns calories effectively", "Improves focus and determination", "Detoxifies the body"],
+    "powerYogaLevel": "Intermediate to Advanced",
+    "powerYogaDuration": "60 minutes",
+    "meditationTitle": "Meditation & Breathing",
+    "meditationDesc": "A guided practice focusing on breathwork (pranayama) and meditation techniques. Learn to calm the mind, reduce stress, and cultivate inner peace.",
+    "meditationPurpose": "To develop mental clarity, emotional balance, and a deeper connection with the present moment.",
+    "meditationBenefits": ["Reduces anxiety and stress", "Improves concentration", "Enhances emotional regulation", "Lowers blood pressure", "Promotes better sleep"],
+    "meditationLevel": "All Levels",
+    "meditationDuration": "45 minutes",
+    "soundhealingTitle": "Sound Healing",
+    "soundhealingDesc": "Experience the therapeutic power of sound through singing bowls, gongs, and chimes. Deep relaxation for body and mind.",
+    "soundhealingPurpose": "To facilitate healing through sound vibrations, promoting physical, emotional, and spiritual well-being.",
+    "soundhealingBenefits": ["Deep relaxation and stress relief", "Balances energy centers (chakras)", "Reduces pain and tension", "Enhances creativity", "Promotes cellular healing"],
+    "soundhealingLevel": "All Levels",
+    "soundhealingDuration": "60 minutes",
+    "ctaTitle": "Ready to Experience These Classes?",
+    "ctaSubtitle": "Choose a class that resonates with you and begin your transformation.",
+    "ctaButton": "View Schedule & Book"
+  },
+  "asanaLibrary": "Asana Library",
+  "asanaLibraryDesc": "Explore classic yoga poses (asanas) and learn their benefits. Each pose is a stepping stone on your journey to greater strength, flexibility, and inner peace.",
+  "difficulties": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "asanas": {
+    "pose1": {
+      "name": "Downward-Facing Dog Pose",
+      "sanskrit": "Adho Mukha Svanasana",
+      "description": "A foundational pose that creates length throughout the entire body. The body forms an inverted V-shape, with hands and feet grounded, hips lifted high.",
+      "benefits": ["Strengthens arms, shoulders, and legs", "Stretches hamstrings, calves, and spine", "Energizes the body and relieves stress", "Improves digestion"],
+      "difficulty": "Beginner"
+    },
+    "pose2": {
+      "name": "Warrior I Pose",
+      "sanskrit": "Virabhadrasana I",
+      "description": "A powerful standing pose that builds strength and stability. One leg lunges forward while arms reach up to the sky, creating a strong, grounded stance.",
+      "benefits": ["Builds strength in legs and arms", "Opens chest and lungs", "Improves focus and balance", "Stretches hip flexors"],
+      "difficulty": "Beginner"
+    },
+    "pose3": {
+      "name": "Tree Pose",
+      "sanskrit": "Vrksasana",
+      "description": "A classic balancing pose where you stand on one leg while the other foot rests on the inner thigh or calf, with hands in prayer position or reaching skyward.",
+      "benefits": ["Improves balance and stability", "Strengthens legs and core", "Increases focus and concentration", "Promotes inner calm"],
+      "difficulty": "Beginner"
+    },
+    "pose4": {
+      "name": "Child's Pose",
+      "sanskrit": "Balasana",
+      "description": "A gentle resting pose where you kneel and fold forward, resting your forehead on the mat with arms extended or by your sides. Perfect for relaxation.",
+      "benefits": ["Relieves back and neck tension", "Calms the mind and reduces stress", "Gently stretches hips and thighs", "Promotes deep breathing"],
+      "difficulty": "Beginner"
+    },
+    "pose5": {
+      "name": "Cobra Pose",
+      "sanskrit": "Bhujangasana",
+      "description": "A gentle backbend that opens the chest and strengthens the spine. You lie on your belly and press up through your hands, lifting your chest while keeping hips grounded.",
+      "benefits": ["Strengthens spine and glutes", "Opens chest and shoulders", "Improves flexibility of spine", "Stimulates abdominal organs"],
+      "difficulty": "Beginner"
+    },
+    "pose6": {
+      "name": "Lotus Pose",
+      "sanskrit": "Padmasana",
+      "description": "The quintessential meditation pose. Sit cross-legged with each foot placed on the opposite thigh, spine straight, and hands resting on knees.",
+      "benefits": ["Promotes mental calm and clarity", "Opens hips and stretches ankles", "Improves posture", "Ideal for meditation practice"],
+      "difficulty": "Intermediate"
+    },
+    "pose7": {
+      "name": "Seated Forward Bend Pose",
+      "sanskrit": "Paschimottanasana",
+      "description": "A core-strengthening pose where you hold your body in a straight line from head to heels, supported by your hands and toes, engaging your entire body.",
+      "benefits": ["Builds core strength", "Strengthens arms and wrists", "Stimulates digestive organs", "Improves posture and endurance"],
+      "difficulty": "Beginner"
+    },
+    "pose8": {
+      "name": "Bridge Pose",
+      "sanskrit": "Setu Bandhasana",
+      "description":"A gentle backbend performed lying on your back. Lift your hips toward the ceiling while keeping shoulders and feet grounded, creating a bridge shape.",
+      "benefits": ["Strengthens back, glutes, and legs", "Opens chest and heart", "Reduces anxiety and fatigue", "Stimulates thyroid gland"],
+      "difficulty": "Beginner"
+    },
+    "pose9": {
+      "name": "One-Legged King Pigeon Pose",
+      "sanskrit": "Eka Pada Rajakapotasana",
+      "description": "A deep hip opener where one leg is folded in front while the other extends behind. This pose requires patience and releases deep-seated tension.",
+      "benefits": ["Deep hip flexor stretch", "Releases tension in hips and lower back", "Improves flexibility", "Relieves sciatic pain"],
+      "difficulty": "Intermediate"
+    },
+    "practiceTips": {
+      "title": "Practice Tips",
+      "tip1": {
+        "head": "Listen to Your Body",
+        "sub": "Never force a pose. Honor your body's limits and progress at your own pace."
+      },
+      "tip2": {
+        "head": "Breathe Mindfully",
+        "sub": "Coordinate your breath with movement. Deep breathing enhances each pose."
+      },
+      "tip3": {
+        "head": "Practice Regularly",
+        "sub": "Consistency is key. Even 10 minutes daily can bring profound benefits."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Visit us at our beautiful studio in Yucatán or get in touch with any questions.",
+    "locationTitle": "Studio Location",
+    "address": "Calle Principal #123, Yobain, Yucatán, México",
+    "hoursTitle": "Studio Hours",
+    "closed": "Closed",
+    "contactTitle": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "sendUs": "Send us a Message",
+    "name": "Name",
+    "message": "Message",
+    "howCan": "How can we help you?",
+    "sendMessage": "Send Message"
+  },
+  "footer": {
+    "tagline": "Find your balance, nurture your soul",
+    "address": "Calle Principal #123, Yobain, Yucatán",
+    "phone": "+52 999 123 4567",
+    "allRights": "All rights reserved.",
+    "quickLinks": "Quick Links"
+  }
+}

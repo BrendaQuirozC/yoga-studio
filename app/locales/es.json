@@ -1,0 +1,223 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "classes": "Clases",
+    "asanas": "Asanas",
+    "contact": "Contacto",
+    "bookClass": "Reservar Clase"
+  },
+  "home": {
+    "quote": "El yoga es el viaje del yo, a través del yo, hacia el yo.",
+    "quoteAuthor": "El Bhagavad Gita",
+    "instructorsTitle": "Conoce a Nuestros Instructores",
+    "instructorsSubtitle": "Nuestros instructores experimentados y apasionados están aquí para guiarte en tu viaje de yoga, ya seas principiante o practicante avanzado.",
+    "instructor1": {
+      "name": "Gisela Novelo",
+      "specialty": "Hatha y Yin Yoga",
+      "bio": "Con más de 10 años de experiencia, Gis aporta paz y atención plena a cada clase."
+    },
+    "instructor2": {
+      "name": "Brenda Quiroz",
+      "specialty": "Power Yoga y Meditación",
+      "bio": "Bren se especializa en desarrollar fuerza y claridad mental a través de la práctica dinámica."
+    },
+    "instructor3": {
+      "name": "Andy Aguilera",
+      "specialty": "Principiantes y Sanación con Sonido",
+      "bio": "Andy crea un espacio acogedor para principiantes y ofrece sesiones transformadoras de sanación con sonido."
+    },
+    "ctaTitle": "Comienza tu Viaje Hoy",
+    "ctaSubtitle": "Únete a nuestra comunidad y descubre el poder transformador del yoga.",
+    "ctaButton": "Reserva tu Primera Clase"
+  },
+  "book": {
+    "title": "Reservar una Clase",
+    "subtitle": "Elige entre nuestra variedad de clases durante toda la semana",
+    "classTypesTitle": "Tipos de Clases",
+    "powerYoga": "Power Yoga",
+    "hathaYoga": "Hatha Yoga",
+    "yinYoga": "Yin Yoga",
+    "beginnersYoga": "Principiantes",
+    "meditation": "Meditación",
+    "soundhealing": "Sanación Sonora",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "duration": "min",
+    "spots": "lugares",
+    "bookButton": "Reservar",
+    "bookingInfoTitle": "Información de Reserva",
+    "cancellationTitle": "Política de Cancelación",
+    "cancellationText": "Cancela hasta 3 horas antes de la clase para un reembolso completo. Las ausencias serán cobradas.",
+    "whatToBringTitle": "Qué Traer",
+    "whatToBringText": "Proporcionamos tapetes y accesorios. Trae agua y usa ropa cómoda.",
+    "firstTimeTitle": "Estudiantes Nuevos",
+    "firstTimeText": "Llega 10 minutos antes para completar el registro. ¡Principiantes bienvenidos en todas las clases!",
+    "pricingTitle": "Precios",
+    "pricingText": "Clase individual: $15 • Paquete de 10 clases: $120 • Ilimitado mensual: $150",
+    "modalTitle": "¡Clase reservada!",
+    "modalMessage": "¡Nos vemos allí, namasté!",
+    "modalClose": "Cerrar"
+  },
+  "purpose": "Propósito",
+  "benefits": "Beneficios",
+  "showLess": "Ver Menos",
+  "learMore": "Aprender Más",
+  "classes": {
+    "title": "Clases del Estudio",
+    "subtitle": "Descubre la clase perfecta para tu viaje. Desde prácticas restaurativas suaves hasta flujos dinámicos, ofrecemos algo para todos.",
+    "hathaYogaTitle": "Hatha Yoga",
+    "hathaYogaDesc": "Práctica tradicional de yoga enfocada en posturas físicas y técnicas de respiración. Perfecta para desarrollar una base sólida en yoga.",
+    "hathaYogaPurpose": "Para crear armonía entre el cuerpo, la mente y el espíritu a través de posturas sostenidas y respiración consciente.",
+    "hathaYogaBenefits": ["Mejora la flexibilidad y la fuerza", "Reduce el estrés y la ansiedad", "Aumenta el equilibrio y la postura", "Promueve la calidad del sueño", "Aumenta la conciencia corporal"],
+    "hathaYogaLevel": "Todos los niveles",
+    "hathaYogaDuration": "75 minutos",
+    "yinYogaTitle": "Yin Yoga",
+    "yinYogaDesc": "Una práctica de ritmo lento dirigida a los tejidos conectivos profundos. Mantén posturas por períodos más largos para mejorar la flexibilidad y cultivar la paz interior.",
+    "yinYogaPurpose": "Para acceder a capas más profundas de tejidos conectivos, aumentar la circulación en articulaciones y calmar el sistema nervioso.",
+    "yinYogaBenefits": ["Estira profundamente tejidos conectivos", "Mejora la movilidad articular", "Libera tensión profunda", "Promueve la atención plena y la meditación", "Balancea los sistemas energéticos del cuerpo"],
+    "yinYogaLevel": "Todos los niveles",
+    "yinYogaDuration": "90 minutos",
+    "beginnersYogaTitle": "Yoga para Principiantes",
+    "beginnersYogaDesc": "Perfecto para aquellos que son nuevos en yoga, esta clase introduce posturas fundamentales, técnicas de respiración y filosofía básica de yoga en un ambiente de apoyo, no intimidante.",
+    "beginnersYogaPurpose": "Para construir una base sólida en la práctica de yoga con alineación y técnicas de respiración adecuadas.",
+    "beginnersYogaBenefits": ["Aprende la forma correcta y la alineación", "Confía en la práctica", "Desarrolla conciencia corporal", "Reduce el estrés naturalmente", "Crea hábitos saludables"],
+    "beginnersYogaLevel": "Principiantes",
+    "beginnersYogaDuration": "60 minutos",
+    "powerYogaTitle": "Power Yoga",
+    "powerYogaDesc": "Un enfoque vigoroso y basado en fitness del yoga estilo vinyasa. Desarrolla fuerza, flexibilidad y resistencia mientras te mueves a través de secuencias desafiantes.",
+    "powerYogaPurpose": "Para desarrollar fuerza física, aumentar la resistencia cardiovascular y desarrollar el enfoque mental a través de movimientos dinámicos.",
+    "powerYogaBenefits": ["Desarrolla masa muscular magra", "Aumenta la resistencia cardiovascular", "Eficaz en la quema de calorías", "Mejora el enfoque y la determinación", "Detoxifica el cuerpo"],
+    "powerYogaLevel": "Intermedio a Avanzado",
+    "powerYogaDuration": "60 minutos",
+    "meditationTitle": "Meditación y Respiración",
+    "meditationDesc": "Sesiones enfocadas en pranayama (trabajo de respiración) y técnicas de meditación. Desarrolla claridad mental y habilidades de manejo del estrés.",
+    "meditationPurpose": "Para desarrollar claridad mental, equilibrio emocional y una conexión más profunda con el momento presente.",
+    "meditationBenefits": ["Reduce la ansiedad y el estrés", "Mejora la concentración", "Fortalece la regulación emocional", "Reduce la presión arterial", "Promueve un mejor sueño"],
+    "meditationLevel": "Todos los niveles",
+    "meditationDuration": "45 minutos",
+    "soundhealingTitle": "Sanación con Sonido",
+    "soundhealingDesc": "Experimenta el poder terapéutico del sonido a través de cuencos cantores, gongs y campanas. Relajación profunda para el cuerpo y la mente.",
+    "soundhealingPurpose": "Para facilitar la sanación a través de vibraciones sonoras, promoviendo bienestar físico, emocional y espiritual.",
+    "soundhealingBenefits": ["Relajación profunda y alivio del estrés", "Balancea centros energéticos (chakras)", "Reduce dolor y tensión", "Fortalece la creatividad", "Promueve la curación celular"],
+    "soundhealingLevel": "Todos los niveles",
+    "soundhealingDuration": "60 minutos",
+    "ctaTitle": "¿Listo para Experimentar Estas Clases?",
+    "ctaSubtitle": "Escoge una clase que resuene contigo y comienza tu transformación.",
+    "ctaButton": "Ver Horario y Reservar"
+  },
+  "asanaLibrary": "Librería de Asanas",
+  "asanaLibraryDesc": "Explora la posturas (asanas) clásicas y aprende sus beneficios. Cada postura es un paso adelante en tu viaje hacia una mayor fuerza, flexibilidad y paz interior.",
+  "difficulties": {
+    "beginner": "Principiante",
+    "intermediate": "Intermedia",
+    "advanced": "Avanzado"
+  },
+  "asanas": {
+    "pose1": {
+      "name": "Postura del Perro Mirando Hacia Abajo",
+      "sanskrit": "Adho Mukha Svanasana",
+      "description": "Una postura fundamental que crea longitud en todo el cuerpo. El cuerpo forma una V invertida, con las manos y los pies apoyados en el suelo y las caderas elevadas.",
+      "benefits": ["Fortalece brazos, hombros y piernas", "Estira los isquiotibiales, las pantorrillas y la columna", "Energiza el cuerpo y alivia el estrés", "Mejora la digestión"],
+      "difficulty": "Principiante"
+    },
+    "pose2": {
+      "name": "Postura del Guerrero I",
+      "sanskrit": "Virabhadrasana I",
+      "description": "Una poderosa postura de pie que desarrolla fuerza y ​​estabilidad. Una pierna se lanza hacia adelante mientras los brazos se extienden hacia el cielo, creando una postura fuerte y estable.",
+      "benefits": ["Fortalece las piernas y Brazos", "Abre el pecho y los pulmones", "Mejora la concentración y el equilibrio", "Estira los flexores de la cadera"],
+      "difficulty": "Principiante"
+    },
+    "pose3": {
+      "name": "Postura del Árbol",
+      "sanskrit": "Vrksasana",
+      "description": "Una postura clásica de equilibrio en la que te apoyas sobre una pierna mientras el otro pie descansa sobre la parte interna del muslo o la pantorrilla, con las manos en posición de oración o extendidas hacia el cielo.",
+      "benefits": ["Mejora el equilibrio y la estabilidad", "Fortalece las piernas y el torso", "Aumenta la concentración", "Promueve la calma interior"],
+      "difficulty": "Principiante"
+    },
+    "pose4": {
+      "name": "Postura del Niño",
+      "sanskrit": "Balasana",
+      "description": "Una postura de descanso suave en la que te arrodillas y te inclinas hacia adelante, apoyando la frente sobre la esterilla con los brazos extendidos o a los lados. Perfecta para la relajación.",
+      "benefits": ["Alivia la tensión de espalda y cuello", "Calma la mente y reduce el estrés", "Estira suavemente caderas y muslos", "Promueve la respiración profunda"],
+      "difficulty": "Principiante"
+    },
+    "pose5": {
+      "name": "Postura de la Cobra",
+      "sanskrit": "Bhujangasana",
+      "description": "Una suave flexión hacia atrás que abre el pecho y fortalece la columna vertebral. Te recuestas boca abajo y te elevas con las manos, elevando el pecho mientras mantienes las caderas apoyadas en el suelo.",
+      "benefits": ["Fortalece la columna vertebral y los glúteos", "Abre el pecho y los hombros", "Mejora la flexibilidad de la columna vertebral", "Estimula los órganos abdominales"],
+      "difficulty": "Principiante"
+    },
+    "pose6": {
+      "name": "Posture del Loto",
+      "sanskrit": "Padmasana",
+      "description": "La postura de meditación por excelencia. Siéntese con las piernas cruzadas, con cada pie apoyado en el muslo opuesto, la columna recta y las manos apoyadas en las rodillas.",
+      "benefits": ["Promueve la calma y la claridad mental", "Abre las caderas y estira los tobillos", "Mejora la postura", "Ideal para la práctica de meditación"],
+      "difficulty": "Intermedia"
+    },
+    "pose7": {
+      "name": "Postura de estiramiento hacia el oeste",
+      "sanskrit": "Paschimottanasana",
+      "description": "Una postura que fortalece el core, donde se mantiene el cuerpo en línea recta desde la cabeza hasta los talones, apoyado en las manos y los dedos de los pies, involucrando todo el cuerpo.",
+      "benefits": ["Fortalece el core", "Fortalece brazos y muñecas", "Estimula los órganos digestivos", "Mejora la postura y la resistencia"],
+      "difficulty": "Principiante"
+    },
+    "pose8": {
+      "name": "Postura del Puente",
+      "sanskrit": "Setu Bandhasana",
+      "description":"Una suave flexión hacia atrás realizada boca arriba. Levanta las caderas hacia el techo manteniendo los hombros y los pies apoyados, creando una forma de puente.",
+      "benefits": ["Fortalece la espalda, los glúteos y las piernas", "Abre el pecho y el corazón", "Reduce la ansiedad y la fatiga", "Estimula la glándula tiroides"],
+      "difficulty": "Principiante"
+    },
+    "pose9": {
+      "name": "Postura de la Paloma Real en una Pierna",
+      "sanskrit": "Eka Pada Rajakapotasana",
+      "description": "Una profunda apertura de cadera donde una pierna se dobla hacia adelante mientras la otra se extiende hacia atrás. Esta postura requiere paciencia y libera la tensión profunda.",
+      "benefits":["Estiramiento profundo del flexor de la cadera", "Libera la tensión en las caderas y la espalda baja", "Mejora la flexibilidad", "Alivia el dolor ciático"],
+      "difficulty": "Intermedia"
+    },
+    "practiceTips": {
+      "title": "Consejos prácticos",
+      "tip1": {
+        "head": "Escucha a tu cuerpo",
+        "sub": "Nunca fuerces una postura. Respeta los límites de tu cuerpo y progresa a tu propio ritmo."
+      },
+      "tip2": {
+        "head": "Respira conscientemente",
+        "sub": "Coordina tu respiración con el movimiento. La respiración profunda mejora cada postura."
+      },
+      "tip3": {
+        "head": "Practica con regularidad",
+        "sub": "La constancia es clave. Incluso 10 minutos diarios pueden traer grandes beneficios."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Visítanos en nuestro hermoso estudio en Yucatán o ponte en contacto con cualquier pregunta.",
+    "locationTitle": "Ubicación",
+    "address": "Calle Principal #123, Yobain, Yucatán, México",
+    "hoursTitle": "Horario del Estudio",
+    "closed": "Cerrado",
+    "contactTitle": "Contacto",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "sendUs": "Envíanos un mensaje",
+    "name": "Nombre",
+    "message": "Mensaje",
+    "howCan": "¿Cómo podemos ayudarte?",
+    "sendMessage": "Enviar mensaje"
+  },
+  "footer": {
+    "tagline": "Encuentra tu equilibrio, nutre tu alma",
+    "address": "Calle Principal #123, Yobain, Yucatán",
+    "phone": "+52 999 123 4567",
+    "allRights": "Todos los derechos reservados.",
+    "quickLinks": "Links Rápidos"
+  }
+}
