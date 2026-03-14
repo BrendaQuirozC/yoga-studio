@@ -74,35 +74,46 @@ export function Navbar() {
 
       {/* Mobile Nav */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100">
-          <div className="px-4 py-4 space-y-3">
-            {navLinks.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                onClick={() => setMobileMenuOpen(false)}
-                className={`block py-2 ${isActive(href) ? "text-teal-700" : "text-gray-600"}`}
+        <div
+          className="fixed inset-0 z-40 md:hidden bg-black/20"
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          <div
+            className="bg-white border-t border-gray-100 mt-16"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="px-4 py-4 space-y-3">
+              {navLinks.map(({ href, label }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`block py-2 ${isActive(href) ? "text-teal-700" : "text-gray-600"}`}
+                >
+                  {label}
+                </Link>
+              ))}
+              <button
+                onClick={() => {
+                  toggleLanguage();
+                  setMobileMenuOpen(false);
+                }}
+                className="flex items-center gap-2 py-2 text-teal-600 hover:text-teal-700"
               >
-                {label}
+                <Globe size={18} />
+                <span className="font-semibold uppercase">
+                  {language === "en" ? "English" : "Español"}
+                </span>
+              </button>
+              <Link
+                href="/book"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block bg-gradient-to-r from-teal-500 via-cyan-500 to-teal-600 text-white px-8 py-3 rounded-full text-center text-lg font-light tracking-wide hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-out active:scale-95"
+                style={{ fontFamily: "Georgia, serif" }}
+              >
+                {t.nav.bookClass}
               </Link>
-            ))}
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center gap-2 py-2 text-teal-600 hover:text-teal-700"
-            >
-              <Globe size={18} />
-              <span className="font-semibold uppercase">
-                {language === "en" ? "English" : "Español"}
-              </span>
-            </button>
-            <Link
-              href="/book"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block bg-gradient-to-r from-teal-500 via-cyan-500 to-teal-600 text-white px-8 py-3 rounded-full text-center text-lg font-light tracking-wide hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-out active:scale-95"
-              style={{ fontFamily: "Georgia, serif" }}
-            >
-              {t.nav.bookClass}
-            </Link>
+            </div>
           </div>
         </div>
       )}

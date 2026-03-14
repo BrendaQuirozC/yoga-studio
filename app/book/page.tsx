@@ -5,6 +5,7 @@ import { Clock, User, Leaf, X } from "lucide-react";
 import { useLanguage } from "../contexts/LanguageContext";
 import Image from "next/image";
 import LogoSmall from "../../public/images/logo-small.png";
+import Info from "../../public/images/info.png";
 
 interface ClassSchedule {
   id: string;
@@ -160,7 +161,11 @@ export default function BookPage() {
 
         {/* Booking Info */}
         <div className="mt-16 bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-teal-100">
-          <div className="text-center mb-6"><span className="text-4xl">🌿</span></div>
+          <div className="text-center mb-6">
+            <span className="text-4xl">
+              <Image src={Info} alt="leaves" width={100} className="justify-self-center"/>
+            </span>
+          </div>
           <h3 className="text-2xl font-serif text-teal-700 mb-6 text-center">{t.book.bookingInfoTitle}</h3>
           <div className="grid md:grid-cols-2 gap-6 text-gray-700">
             {[
